@@ -48,7 +48,7 @@ message CustomerReply {
 > Um dos diferenciais desse novo "modelo" de comunicação é que possivel enviar e receber um stream de dados. Na aplicação é possivel encontrar um modelo de proto-response utilizando stream ( no método ListAllStream, localizado no arquivo [CustomerEndpoint.kt](https://github.com/LucasNasc/micronaut-grpc-kotlin/blob/master/src/main/kotlin/br/com/nascimento/customer/CustomerEndpoint.kt)) 
 
 ## Instalando Dependências
-> O gerenciador de pacotes utilizado no projeto é o gradle, então é necessário antes tudo, instalar as dependências através do comando: 
+> O gerenciador de pacotes utilizado no projeto é o gradle, então é necessário antes de tudo, instalar as dependências através do comando: 
 
 ```sh
 ./gradlew build
